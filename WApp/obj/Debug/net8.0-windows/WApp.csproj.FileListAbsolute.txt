@@ -1,0 +1,17 @@
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\WApp.exe
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\WApp.deps.json
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\WApp.runtimeconfig.json
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\WApp.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\WApp.pdb
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.Econtact.resources
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.Properties.Resources.resources
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.csproj.GenerateResource.cache
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.AssemblyInfoInputs.cache
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.AssemblyInfo.cs
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.csproj.CoreCompileInputs.cache
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\refint\WApp.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.pdb
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.genruntimeconfig.cache
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\ref\WApp.dll
