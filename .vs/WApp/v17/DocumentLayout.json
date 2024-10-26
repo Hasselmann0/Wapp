@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|c:\\users\\isaac\\onedrive\\\u00E1rea de trabalho\\projetosunintervscode\\wapp\\wapp\\wapp\\wappclasses\\contactclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|solutionrelative:wapp\\wappclasses\\contactclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|c:\\users\\isaac\\onedrive\\\u00E1rea de trabalho\\projetosunintervscode\\wapp\\wapp\\wapp\\properties\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|solutionrelative:wapp\\properties\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|c:\\users\\isaac\\onedrive\\\u00E1rea de trabalho\\projetosunintervscode\\wapp\\wapp\\wapp\\econtact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|solutionrelative:wapp\\econtact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|c:\\users\\isaac\\onedrive\\\u00E1rea de trabalho\\projetosunintervscode\\wapp\\wapp\\wapp\\econtact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|solutionrelative:wapp\\econtact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|c:\\users\\isaac\\onedrive\\\u00E1rea de trabalho\\projetosunintervscode\\wapp\\wapp\\wapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|solutionrelative:wapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|c:\\users\\isaac\\onedrive\\\u00E1rea de trabalho\\projetosunintervscode\\wapp\\wapp\\wapp\\properties\\app.config||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{64606280-5416-4FEE-A34C-95802CBB6EBD}|WApp\\WApp.csproj|solutionrelative:wapp\\properties\\app.config||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Econtact.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\Econtact.cs",
               "RelativeDocumentMoniker": "WApp\\Econtact.cs",
@@ -47,54 +35,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\Properties\\App.config",
-              "RelativeDocumentMoniker": "WApp\\Properties\\App.config",
-              "ToolTip": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\Properties\\App.config",
-              "RelativeToolTip": "WApp\\Properties\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-23T20:00:48.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "contactClass.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\wappClasses\\contactClass.cs",
-              "RelativeDocumentMoniker": "WApp\\wappClasses\\contactClass.cs",
-              "ToolTip": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\wappClasses\\contactClass.cs",
-              "RelativeToolTip": "WApp\\wappClasses\\contactClass.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAYwBIAAAAtAAAAAAAAAA==",
+              "Title": "Econtact.cs",
+              "DocumentMoniker": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\Econtact.cs",
+              "RelativeDocumentMoniker": "WApp\\Econtact.cs",
+              "ToolTip": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\Econtact.cs",
+              "RelativeToolTip": "WApp\\Econtact.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAcwHkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T19:36:34.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\Properties\\App.config",
-              "RelativeDocumentMoniker": "WApp\\Properties\\App.config",
-              "ToolTip": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\Properties\\App.config",
-              "RelativeToolTip": "WApp\\Properties\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-23T19:32:01.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\Program.cs",
-              "RelativeDocumentMoniker": "WApp\\Program.cs",
-              "ToolTip": "C:\\Users\\isaac\\OneDrive\\\u00C1rea de Trabalho\\projetosUninterVSCODE\\WApp\\WApp\\WApp\\Program.cs",
-              "RelativeToolTip": "WApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T19:23:55.003Z",
+              "WhenOpened": "2024-10-26T17:25:10.424Z",
               "EditorCaption": ""
             }
           ]

@@ -163,7 +163,7 @@ namespace WApp.wappClasses
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@ContactID", c.ContactID);
 
-                conn.Open ()
+                conn.Open();
                 int rows = cmd.ExecuteNonQuery();
                 //se correr tudo bem o valor das colunas sera >1 else o valor sera 0
                 if (rows > 0)

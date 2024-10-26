@@ -32,7 +32,7 @@
             pictureBoxLogo = new PictureBox();
             lblContactID = new Label();
             txtBoxContactID = new TextBox();
-            textBoxFirstName = new TextBox();
+            txtBoxFirstName = new TextBox();
             lblFirstName = new Label();
             txtBoxLastName = new TextBox();
             lblLastName = new Label();
@@ -46,12 +46,12 @@
             btnUpdate = new Button();
             btnDelete = new Button();
             btnClear = new Button();
-            dataGridView1 = new DataGridView();
+            dgvContactList = new DataGridView();
             lblSearch = new Label();
             txtBoxSearch = new TextBox();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvContactList).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -81,17 +81,18 @@
             txtBoxContactID.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtBoxContactID.Location = new Point(171, 220);
             txtBoxContactID.Name = "txtBoxContactID";
+            txtBoxContactID.ReadOnly = true;
             txtBoxContactID.Size = new Size(241, 29);
             txtBoxContactID.TabIndex = 2;
             txtBoxContactID.TextChanged += textBox1_TextChanged;
             // 
-            // textBoxFirstName
+            // txtBoxFirstName
             // 
-            textBoxFirstName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxFirstName.Location = new Point(171, 279);
-            textBoxFirstName.Name = "textBoxFirstName";
-            textBoxFirstName.Size = new Size(241, 29);
-            textBoxFirstName.TabIndex = 4;
+            txtBoxFirstName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtBoxFirstName.Location = new Point(171, 279);
+            txtBoxFirstName.Name = "txtBoxFirstName";
+            txtBoxFirstName.Size = new Size(241, 29);
+            txtBoxFirstName.TabIndex = 4;
             // 
             // lblFirstName
             // 
@@ -195,6 +196,7 @@
             btnAdd.TabIndex = 15;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnUpdate
             // 
@@ -207,7 +209,7 @@
             btnUpdate.TabIndex = 16;
             btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = false;
-            btnUpdate.Click += button2_Click;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
@@ -220,6 +222,7 @@
             btnDelete.TabIndex = 17;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnClear
             // 
@@ -232,14 +235,16 @@
             btnClear.TabIndex = 18;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
             // 
-            // dataGridView1
+            // dgvContactList
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(464, 281);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(670, 344);
-            dataGridView1.TabIndex = 19;
+            dgvContactList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvContactList.Location = new Point(464, 281);
+            dgvContactList.Name = "dgvContactList";
+            dgvContactList.Size = new Size(670, 344);
+            dgvContactList.TabIndex = 19;
+            dgvContactList.RowHeaderMouseClick += dgvContactList_RowHeaderMouseClick;
             // 
             // lblSearch
             // 
@@ -281,7 +286,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(txtBoxSearch);
             Controls.Add(lblSearch);
-            Controls.Add(dataGridView1);
+            Controls.Add(dgvContactList);
             Controls.Add(btnClear);
             Controls.Add(btnDelete);
             Controls.Add(btnUpdate);
@@ -294,7 +299,7 @@
             Controls.Add(lblContactNumber);
             Controls.Add(txtBoxLastName);
             Controls.Add(lblLastName);
-            Controls.Add(textBoxFirstName);
+            Controls.Add(txtBoxFirstName);
             Controls.Add(lblFirstName);
             Controls.Add(txtBoxContactID);
             Controls.Add(lblContactID);
@@ -304,7 +309,7 @@
             Text = "Econtact";
             Load += Econtact_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvContactList).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -315,7 +320,7 @@
         private PictureBox pictureBoxLogo;
         private Label lblContactID;
         private TextBox txtBoxContactID;
-        private TextBox textBoxFirstName;
+        private TextBox txtBoxFirstName;
         private Label lblFirstName;
         private TextBox txtBoxLastName;
         private Label lblLastName;
@@ -329,7 +334,7 @@
         private Button btnUpdate;
         private Button btnDelete;
         private Button btnClear;
-        private DataGridView dataGridView1;
+        private DataGridView dgvContactList;
         private Label lblSearch;
         private TextBox txtBoxSearch;
         private PictureBox pictureBox1;

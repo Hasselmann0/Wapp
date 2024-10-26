@@ -15,3 +15,13 @@ C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\o
 C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.pdb
 C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.genruntimeconfig.cache
 C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\ref\WApp.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.csproj.AssemblyReference.cache
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.sourcelink.json
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\WApp.dll.config
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\isaac\OneDrive\Área de Trabalho\projetosUninterVSCODE\WApp\WApp\WApp\obj\Debug\net8.0-windows\WApp.csproj.Up2Date
