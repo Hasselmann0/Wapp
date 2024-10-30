@@ -1,4 +1,6 @@
+using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using WApp.wappClasses;
 
 namespace WApp
@@ -74,6 +76,7 @@ namespace WApp
             btnClear_Click(sender, e);
 
         }
+        
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             c.ContactID = int.Parse(txtBoxContactID.Text);
@@ -90,7 +93,7 @@ namespace WApp
                 DataTable dt = c.Select();
                 dgvContactList.DataSource = dt;
                 //invoca o metodo clear
-                btnClear_Click(sender , e);
+                btnClear_Click(sender, e);
             }
             else
             {
@@ -102,7 +105,7 @@ namespace WApp
         {
             //Pega os dados da GridView e atualiza nas caixas de texto
             //identifica a row onde o mouse clicou
-            int  rowIndex = e.RowIndex;
+            int rowIndex = e.RowIndex;
             txtBoxContactID.Text = dgvContactList.Rows[rowIndex].Cells[0].Value.ToString();
             txtBoxFirstName.Text = dgvContactList.Rows[rowIndex].Cells[1].Value.ToString();
             txtBoxLastName.Text = dgvContactList.Rows[rowIndex].Cells[2].Value.ToString();
@@ -136,6 +139,22 @@ namespace WApp
             txtBoxSearch.Text = string.Empty;
             cmbGender.Text = string.Empty;
 
+        }
+
+        static string myconnstring = ConfigurationManager.ConnectionStrings["connstring"].ConnectionString;
+        private void txtBoxSearch_TextChanged(object sender, EventArgs e)
+        {
+            //captura o valor da caixa de texto
+            string keyword = txtBoxSearch.Text;
+            
+            SqlConnection conn = new SqlConnection(myconnstring);
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT * FROM tbl_contact WHERE FirstName LIKE '%"+keyword+"%' OR LastName LIKE '%"+keyword+"%' OR Address LIKE '%"+keyword+"%'", conn);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            dgvContactList.DataSource = dt; 
+
+
+            conn.Open();
         }
     }
 }
